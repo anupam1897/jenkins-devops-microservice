@@ -6,7 +6,7 @@ pipeline{
 
 	stages{
 		stage('Docker test'){
-			agen{
+			agent{
 				docker {
 				image 'maven:3.6.3'
 				}
